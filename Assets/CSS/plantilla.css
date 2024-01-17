@@ -1,0 +1,145 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.carrusel-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+}
+
+.carrusel-img {
+    width: 100%;
+    height: 400px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.secciones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #46c726;
+    padding: 10px;
+}
+
+.clicka  {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid #1f6603;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.secciones a:hover {
+    background-color: #1f6603;
+}
+
+header {
+    background-color: #795915;
+    color: white;
+    font-family: 'Rubik Burned', system-ui;
+    text-align: center;
+    padding: 20px;
+}
+ p{
+    font-family: cursive;
+    font-size: 15px;
+    text-align: justify;
+ }
+
+
+.p1.f{
+    float: left; /* Colocar la imagen a la izquierda del contenedor */
+    margin-right: 20px; /* Ajustar el espacio entre la imagen y el contenido */
+}
+.p1{
+    width: 900px; /* Ajusta el ancho del contenedor izquierdo según tus necesidades */
+      background-color: #f0f0f0;
+      padding: 20px;
+      float: left ; /* Coloca el contenedor a la izquierda */
+      min-height: 100%;
+}
+
+
+.p2{
+    width: 900px; /* Ajusta el ancho del contenedor izquierdo según tus necesidades */
+    background-color: #f0f0f0;
+    padding: 20px;
+    float: right ; /* Coloca el contenedor a la izquierda */
+   
+}
+.p2.f{
+    float: right; /* Colocar la imagen a la izquierda del contenedor */
+    margin-right: 20px; /* Ajustar el espacio entre la imagen y el contenido */
+ }
+
+.p3{
+    width: 900px; /* Ajusta el ancho del contenedor izquierdo según tus necesidades */
+    background-color: #f0f0f0;
+    padding: 20px;
+    float: left ; /* Coloca el contenedor a la izquierda */
+}
+.p3.f{
+    float: right; /* Colocar la imagen a la izquierda del contenedor */
+    margin-right: 20px; /* Ajustar el espacio entre la imagen y el contenido */
+ }
+
+
+.p4{
+    width: 900px; /* Ajusta el ancho del contenedor izquierdo según tus necesidades */
+    background-color: #f0f0f0;
+    padding: 20px;
+    float: right ; /* Coloca el contenedor a la izquierda */
+}
+.p4.f{
+    float: left; /* Colocar la imagen a la izquierda del contenedor */
+    margin-right: 20px; /* Ajustar el espacio entre la imagen y el contenido */
+ }
+
+.p5{
+    width: 900px; /* Ajusta el ancho del contenedor izquierdo según tus necesidades */
+    background-color: #f0f0f0;
+    padding: 20px;
+    float: left ; /* Coloca el contenedor a la izquierda */
+}
+
+.p5.f{
+    float: right; /* Colocar la imagen a la izquierda del contenedor */
+    margin-right: 20px; /* Ajustar el espacio entre la imagen y el contenido */
+ }
+
+.p6{
+    width: 900px; /* Ajusta el ancho del contenedor izquierdo según tus necesidades */
+    background-color: #f0f0f0;
+    padding: 20px;
+    float: right ; /* Coloca el contenedor a la izquierda */
+}
+
+.p6.f{
+    float: left; /* Colocar la imagen a la izquierda del contenedor */
+    margin-right: 20px; /* Ajustar el espacio entre la imagen y el contenido */
+ }
